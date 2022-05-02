@@ -1,0 +1,213 @@
+.heroSectionContainer{
+    background-color: #e6efff;
+    /* opacity: 0.6; */
+    width: 100%;
+    display: flex;
+    position: relative;
+    /* margin-bottom: 90px; */
+    height: 100vh;
+}
+.heroLeftSection , .heroRightSection{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding-bottom: 40px;
+}
+/* -----------------------------------HEROLEFTSECTION ---------------------------- */
+.heroLeftSection{
+    padding-left: 150px;
+    padding-top: 10%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+.heroLeftSection .heroSectionHeader{
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    /* padding-left: 100px; */
+    margin-bottom: 15px;
+}
+.heroLeftSection .heroSectionPara{
+    color: black;
+    opacity: 0.5;
+    font-size: 13px;
+    /* padding-left: 30px; */
+    /* margin-bottom: 15px; */
+}
+.shoppingCartIcon {
+    color: white; 
+    font-size: 30px;
+}
+
+
+.heroSectionButton{
+    margin-top: 18px;
+    background-color: rgb(53, 53, 223);
+    border: none;
+    outline: none;
+    color: rgb(250, 246, 246);
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 390;
+    font-family: 'Roboto', sans-serif;
+    /* margin-left: 30px; */
+   
+}
+.heroSectionButton:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.customizeLink a{
+    text-decoration: none;
+    color: rgb(53, 53, 223);
+    font-size: smaller;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+.customizeLink a:hover{
+    color: rgb(82, 82, 161);
+    transition: 0.3s ease-in;
+}
+
+
+/* --------------------------------------------HERORIGHTSECTION -----------------------------------------*/
+.heroRightSection{
+    /* padding-top: 6%; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    
+}
+.heroRightTioSection{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+    position: relative;
+    height: 220px;
+}
+
+.shoes{
+    position: relative;
+    height: 220px;
+}
+.heroShoe{
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+.heroShoes{
+    width: 140px;
+    height: 110px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: -30px;
+    left: -20px;
+}
+
+
+.saleContainer{
+    position: absolute;
+    top: -16px;
+    right: 50px;
+    padding: 10px 25px;
+    background-color: #a4c639;
+    letter-spacing: 2px;
+    color: white;
+    border-radius: 30px;
+}
+.cartIcon{
+    background: orange;
+    border-radius: 200px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+}
+.heroCard{
+    width:250px;
+    height:220px;
+    background-color: #fff;
+    padding: 15px 10px 30px 40px;
+    position: relative;
+}
+
+.shoesHeader{
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.shoesSubHeader{
+    font-size: 12px;
+    color: black;
+    opacity: 0.7;
+}
+.shoesMainHeader{
+    margin-top: 4px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.numberDiv{
+    margin-top: 20px;
+   display: flex;
+}
+.counter{
+    background-color: grey;
+    margin-right: 5px;
+    font-size: 8px;
+    opacity: 0.5;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: 19px;
+
+}
+.addToCart{
+    background-color: rgb(53, 53, 223);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px 35px;
+}
+.addToCart:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s ease-in;
+}
+.verifiedIcon{
+    width: 40px;
+    height: 40px;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.paymentSection{
+    /* width: 250px;
+    height: 200px; */
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 59%;
+    left: 26%;
+    border-radius: 12px;
+
+}
+.proImg{
+    width: 400px;
+    height: 20px;
+    object-fit: cover;
+}

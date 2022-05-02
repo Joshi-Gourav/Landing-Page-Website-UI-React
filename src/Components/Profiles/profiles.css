@@ -1,0 +1,38 @@
+.profileContainer{
+    padding:10px 10% 0px;
+}
+
+
+.profileTopSection {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.profileTopSection .profileHeader{
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    color: #407280;
+
+}
+.profileTopSection .profilePara{
+    letter-spacing: 0.5px;
+    color: #407280;
+}
+.userProfile{
+    display:flex;
+    box-sizing:border-box;
+    position:relative;
+
+}
+
+.profileImages {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background-size: cover;
+}

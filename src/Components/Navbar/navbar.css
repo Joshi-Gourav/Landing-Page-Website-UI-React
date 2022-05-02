@@ -1,0 +1,82 @@
+/*-------------------------------------- NAVBAR STYLING---------------------------------------------  */
+.navbarContainer{
+    background-color: #e6efff;
+    /* background: linear-gradient(#e6efff 80% , #ebf3fe 50% , #f3f7ff); */
+    /* opacity: 0.6; */
+    display: flex;
+    padding: 23px 50px;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 100px; */
+}
+.navbarLeftSection , .navbarRightSection{
+    display: flex;
+    align-items: center;
+}
+/* NAVBAR LEFT SECTION STYLING */
+.navbarLeftSection .navLogo .headerLogo a{
+    font-weight: bold;
+    margin-right: 35px;
+    text-decoration: none;
+    color: black;
+}
+.navbarLeftSection .navLinks li{
+    display: inline-block;
+    list-style: none;
+   
+}
+.navbarLeftSection .navLinks li a{
+     margin-left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+
+}
+.navbarLeftSection .navLinks li a:hover{
+    color: rgb(99, 95, 95);
+    transition: 0.3s ease-in;
+}
+/* NAVBAR RIGHT SECTION STYLING */
+.navbarRightSection .login{
+    font-weight: 500;
+    font-size: 14px;
+}
+.navbarRightSection .login:hover{
+    color: rgb(99, 95, 95);
+    transition: 0.3s ease-in;
+
+}
+.navbarRightSection .loginBtn{
+    background-color: rgb(53, 53, 223);
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.loginBtn:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s ease-in;
+}
+.navbarRightSection .icon{
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
